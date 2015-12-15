@@ -1,0 +1,2 @@
+s1|GUI|2015-05-23|vathsan.vk@gmail.com|I enjoy outdoor activities|I enjoy outdoor activities (1 strongly agree - 7 strongly disagree)|start|10|3|
+s2|Sec|2015-04-14|vat@g.com|I use computers on a daily basis|I use computers on a daily basis (1 strongly agree - 7 strongly disagree)|stop|5|5|
