@@ -11,13 +11,13 @@ public class MailClass {
 		/*String body ="Hello Class we are trying to test java mail";//Body of the mail
 		String from ="nbadvathsan@gmail.com"; // email of sender
 		String sub ="Testing";// subject of the mail*/
-		String id = "nbadvathsan@gmail.com"; // email of the sender
-		String pass = "magic1nbad"; // password of the sender's email
-		//String to = "vathsan.vk@gmail.com";// email of the reciever*/
+		String id = ""; // email of the sender
+		String pass = ""; // password of the sender's email
+		//String to = "";// email of the reciever*/
 		GMailSender sender = new GMailSender(id, pass);
 		
 		try {
-			sender.sendMail(sub + " " + from, body, "nbadvathsan@gmail.com", to);
+			sender.sendMail(sub + " " + from, body, "", to);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
